@@ -4,7 +4,7 @@ let fs = require('fs');
 http.createServer((req, res) => {
     let path = req.url;
     if (path === '/') {
-        fs.readFile('index.html', (err, data) => {
+        fs.readFile('home.html', (err, data) => {
             if (err) throw err;
             res.writeHead(200, {'Content-Type': 'text/html'});
             res.write(data);
