@@ -1,0 +1,22 @@
+{
+  "name": "basicinfosite",
+  "version": "1.0.0",
+  "description": "A little practice with NodeJS and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danisolo91/basic-info-site.git"
+  },
+  "author": "Daniel Solomon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danisolo91/basic-info-site/issues"
+  },
+  "homepage": "https://github.com/danisolo91/basic-info-site#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
